@@ -1,0 +1,22 @@
+denies:
+    - cron_date: 0 0 * * *
+      start_time: '00:00'
+      end_time: '23:59'
+      tags: ['Academic Fraud','Adult Themes','Advertising','Alcohol','Dating','Drugs','Gambling','Hacking','Hate/Discrimination','Illegal Activities','Illegal Downloads','Lingerie/Bikini','Lotteries','Military','Nudity','Online Meetings','Online Trading','Pornography','Proxy/Anonymizer','Religious','Sex Education','Sexuality','Tasteless','Weapons','Web Spam']
+
+allows:
+    - cron_date: 0 0 * * *
+      start_time: '06:00'
+      end_time: '22:00'
+      tags: ['News/Media','Content Delivery Networks','Blogs','Non-Profits','Forums/Message boards','Politics','Business Services','Portals','Ecommerce/Shopping','Educational Institutions','Research/Reference','Search Engines','Financial Institutions','Software/Technology','Government','Sports','Health and Fitness','Travel','URL Shortener','Visual Search Engines','Webmail','File Storage','Chat','Certificate Verification']
+
+    - cron_date: 0 0 * * * 1,2,3,4,5
+      start_time: '8:00'
+      end_time: '18:00'
+      tags: ['Photo Sharing','Movies','Social Networking','Video Sharing','Instant Messaging','Games']
+
+    - cron_date: 0 0 * * * 1,2,3,4,7
+      start_time: '20:00'
+      end_time: '21:30'
+      tags: ['Photo Sharing','Movies','Social Networking','Video Sharing','Instant Messaging','Games']
+
