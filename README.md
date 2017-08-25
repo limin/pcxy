@@ -67,7 +67,7 @@ It's a log file with common log format. e.g.
 
 ### access.csv
 
-It's a csv file with the columns of client_ip,time,method,host,request_uri,http_version,message,Referer
+It's a csv file with the columns of client_ip,time,method,host,request_uri,http_version,allowed/denied,Referer
 and User-Agent.
 
 ```
