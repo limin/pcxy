@@ -8,7 +8,7 @@ With Pcxy, you can block inappropriate and dangerous sites, restrict access by t
 
 I run it on my old pc with ubuntu 15.10.
 
-```
+```shell
 sudo apt-get update
 sudo apt-get install python3-pip
 pip3 install croniter
@@ -25,7 +25,7 @@ sudo python3 proxy_server.py
 
 The access rules are defined in the rule.yaml file. e.g.
 
-```
+```yaml
 denies:
     - cron_date: 0 0 * * *
       start_time: '00:00'
