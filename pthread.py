@@ -7,9 +7,7 @@ import errno
 import time
 import pdb
 import re
-import os
 from time import gmtime, strftime, localtime
-from subprocess import Popen
 import logging
 import config
 import rule
